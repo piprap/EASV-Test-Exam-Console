@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = xUnitTest
-build_property.ProjectDir = C:\Users\londo\Source\Repos\piprap\EASV-Test-Exam-Console\xUnitTest\
+build_property.RootNamespace = EASV_Test_Exam_Console
+build_property.ProjectDir = C:\Users\londo\Source\Repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\
