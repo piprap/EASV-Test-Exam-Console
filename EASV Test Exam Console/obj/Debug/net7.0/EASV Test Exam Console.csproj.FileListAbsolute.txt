@@ -13,3 +13,18 @@ C:\Users\emil-\Documents\EASV\Test\EASV Test Exam Console\EASV Test Exam Console
 C:\Users\emil-\Documents\EASV\Test\EASV Test Exam Console\EASV Test Exam Console\obj\Debug\net7.0\EASV Test Exam Console.pdb
 C:\Users\emil-\Documents\EASV\Test\EASV Test Exam Console\EASV Test Exam Console\obj\Debug\net7.0\EASV Test Exam Console.genruntimeconfig.cache
 C:\Users\emil-\Documents\EASV\Test\EASV Test Exam Console\EASV Test Exam Console\obj\Debug\net7.0\ref\EASV Test Exam Console.dll
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\bin\Debug\net7.0\EASV Test Exam Console.exe
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\bin\Debug\net7.0\EASV Test Exam Console.deps.json
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\bin\Debug\net7.0\EASV Test Exam Console.runtimeconfig.json
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\bin\Debug\net7.0\EASV Test Exam Console.dll
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\bin\Debug\net7.0\EASV Test Exam Console.pdb
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\obj\Debug\net7.0\EASV Test Exam Console.csproj.AssemblyReference.cache
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\obj\Debug\net7.0\EASV Test Exam Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\obj\Debug\net7.0\EASV Test Exam Console.AssemblyInfoInputs.cache
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\obj\Debug\net7.0\EASV Test Exam Console.AssemblyInfo.cs
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\obj\Debug\net7.0\EASV Test Exam Console.csproj.CoreCompileInputs.cache
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\obj\Debug\net7.0\EASV Test Exam Console.dll
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\obj\Debug\net7.0\refint\EASV Test Exam Console.dll
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\obj\Debug\net7.0\EASV Test Exam Console.pdb
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\obj\Debug\net7.0\EASV Test Exam Console.genruntimeconfig.cache
+C:\Users\londo\source\repos\piprap\EASV-Test-Exam-Console\EASV Test Exam Console\obj\Debug\net7.0\ref\EASV Test Exam Console.dll

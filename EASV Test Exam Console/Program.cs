@@ -1,7 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using EASV_Test_Exam_Console;
+
 Console.WriteLine("Hello, World!");
 
-
+Cleaning d = new(500,true,true,true);
+Console.WriteLine(d.ToString());
 
 static void CalculatePrice(int distance)
 {
@@ -41,3 +44,4 @@ CalculatePrice(100);
 CalculatePrice(101);
 CalculatePrice(200);
 CalculatePrice(500);
+Console.ReadLine();
