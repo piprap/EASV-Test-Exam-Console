@@ -10,9 +10,9 @@ namespace EASV_Test_Exam_Console
     internal class Cleaning
     {
         private int area { get; set; }
-        private bool IsDeluxe { get; set; }
-        private bool IsDoubleWash { get; set; }
-        private bool IsImpreg {get; set; }
+        private bool IsDeluxe { get; set; } = false;
+        private bool IsDoubleWash { get; set; } = false;
+        private bool IsImpreg { get; set; } = false;
         public Cleaning(int area, bool IsDeluxe, bool IsDoubleWash,bool IsImpreg) 
         {
             this.area = area;
@@ -27,6 +27,10 @@ namespace EASV_Test_Exam_Console
                 this.IsDoubleWash = IsDoubleWash;
                 this.IsImpreg = IsImpreg;
             }
+        }
+        public Cleaning(int area)
+        {
+            this.area=area;
         }
         public override string ToString()
         {

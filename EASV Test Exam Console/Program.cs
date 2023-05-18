@@ -4,6 +4,7 @@ using EASV_Test_Exam_Console;
 Console.WriteLine("Hello, World!");
 
 Cleaning d = new(500,true,true,true);
+Cleaning c = new(500, false, false, false);
 Console.WriteLine(d.ToString());
 
 static void CalculatePrice(int distance)
