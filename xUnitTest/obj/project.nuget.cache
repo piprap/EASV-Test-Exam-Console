@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wwnzYRRpuIBdB/Pmv1uoKX/2fWMsfh33Y4XUiiHwgQHpvQgKBvAjLyY8tO4th9hF09o/OB3L9EDGRB1a21bpvQ==",
+  "dgSpecHash": "m7X0Dd6GamLsGVvjh6Cb0UWlncA6GGuFzwWZNJTU1t7UsbVxl7cGCbz0FlF3V/1KWuFfpnsAVWeeCywoMl6Kug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emil-\\Documents\\EASV\\Test\\EASV Test Exam Console\\xUnitTest\\xUnitTest.csproj",
+  "projectFilePath": "C:\\Users\\emil-\\Documents\\EASV\\Test\\EASV-Test-Exam-Console\\xUnitTest\\xUnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emil-\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\emil-\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

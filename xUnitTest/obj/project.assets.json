@@ -5538,11 +5538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emil-\\Documents\\EASV\\Test\\EASV Test Exam Console\\xUnitTest\\xUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\emil-\\Documents\\EASV\\Test\\EASV-Test-Exam-Console\\xUnitTest\\xUnitTest.csproj",
       "projectName": "xUnitTest",
-      "projectPath": "C:\\Users\\emil-\\Documents\\EASV\\Test\\EASV Test Exam Console\\xUnitTest\\xUnitTest.csproj",
+      "projectPath": "C:\\Users\\emil-\\Documents\\EASV\\Test\\EASV-Test-Exam-Console\\xUnitTest\\xUnitTest.csproj",
       "packagesPath": "C:\\Users\\emil-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emil-\\Documents\\EASV\\Test\\EASV Test Exam Console\\xUnitTest\\obj\\",
+      "outputPath": "C:\\Users\\emil-\\Documents\\EASV\\Test\\EASV-Test-Exam-Console\\xUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emil-\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5559,8 +5559,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\emil-\\Documents\\EASV\\Test\\EASV Test Exam Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj": {
-              "projectPath": "C:\\Users\\emil-\\Documents\\EASV\\Test\\EASV Test Exam Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj"
+            "C:\\Users\\emil-\\Documents\\EASV\\Test\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj": {
+              "projectPath": "C:\\Users\\emil-\\Documents\\EASV\\Test\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj"
             }
           }
         }

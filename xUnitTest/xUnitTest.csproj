@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EASV Test Exam Console\EASV Test Exam Console.csproj" />
+  </ItemGroup>
+
 </Project>

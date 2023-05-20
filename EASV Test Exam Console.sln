@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EASV Test Exam Console", "EASV Test Exam Console\EASV Test Exam Console.csproj", "{E427E8A7-0A85-47B7-94FC-B033A5F59E3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASV Test Exam Console", "EASV Test Exam Console\EASV Test Exam Console.csproj", "{E427E8A7-0A85-47B7-94FC-B033A5F59E3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitTest", "xUnitTest\xUnitTest.csproj", "{FE72BBFA-1946-4270-984C-4F2331D458E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitTest", "xUnitTest\xUnitTest.csproj", "{FE72BBFA-1946-4270-984C-4F2331D458E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +17,10 @@ Global
 		{E427E8A7-0A85-47B7-94FC-B033A5F59E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E427E8A7-0A85-47B7-94FC-B033A5F59E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E427E8A7-0A85-47B7-94FC-B033A5F59E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE72BBFA-1946-4270-984C-4F2331D458E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE72BBFA-1946-4270-984C-4F2331D458E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE72BBFA-1946-4270-984C-4F2331D458E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE72BBFA-1946-4270-984C-4F2331D458E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
