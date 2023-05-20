@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\londo\\source\\repos\\piprap\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj": {}
+    "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\Test_Exam\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\londo\\source\\repos\\piprap\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj": {
+    "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\Test_Exam\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\londo\\source\\repos\\piprap\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj",
+        "projectUniqueName": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\Test_Exam\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj",
         "projectName": "EASV Test Exam Console",
-        "projectPath": "C:\\Users\\londo\\source\\repos\\piprap\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj",
-        "packagesPath": "C:\\Users\\londo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\londo\\source\\repos\\piprap\\EASV-Test-Exam-Console\\EASV Test Exam Console\\obj\\",
+        "projectPath": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\Test_Exam\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj",
+        "packagesPath": "C:\\Users\\WEHBA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\Test_Exam\\EASV-Test-Exam-Console\\EASV Test Exam Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\londo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WEHBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

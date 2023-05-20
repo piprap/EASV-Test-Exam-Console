@@ -13,6 +13,9 @@ namespace EASV_Test_Exam_Console
         private bool IsDeluxe { get; set; } = false;
         private bool IsDoubleWash { get; set; } = false;
         private bool IsImpreg { get; set; } = false;
+
+
+        
         public Cleaning(int area, bool IsDeluxe, bool IsDoubleWash,bool IsImpreg) 
         {
             this.area = area;
@@ -36,5 +39,6 @@ namespace EASV_Test_Exam_Console
         {
             return "[Area: "+this.area+" IsDeluxe: "+this.IsDeluxe+" IsDoubleWash: "+this.IsDoubleWash+" IsImpreg: "+this.IsImpreg+"]"; 
         }
+
     }
 }

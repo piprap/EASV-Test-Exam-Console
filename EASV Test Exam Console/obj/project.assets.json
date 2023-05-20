@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\londo\\.nuget\\packages\\": {}
+    "C:\\Users\\WEHBA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\londo\\Source\\Repos\\piprap\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj",
+      "projectUniqueName": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\Test_Exam\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj",
       "projectName": "EASV Test Exam Console",
-      "projectPath": "C:\\Users\\londo\\Source\\Repos\\piprap\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj",
-      "packagesPath": "C:\\Users\\londo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\londo\\Source\\Repos\\piprap\\EASV-Test-Exam-Console\\EASV Test Exam Console\\obj\\",
+      "projectPath": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\Test_Exam\\EASV-Test-Exam-Console\\EASV Test Exam Console\\EASV Test Exam Console.csproj",
+      "packagesPath": "C:\\Users\\WEHBA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\Test_Exam\\EASV-Test-Exam-Console\\EASV Test Exam Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\londo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\WEHBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
