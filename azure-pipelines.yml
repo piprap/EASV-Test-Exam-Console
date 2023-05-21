@@ -34,3 +34,9 @@ steps:
     command: test
     projects: '**/*Test/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
+
+#SpecFlow
+- task: SpecFlowPlus@0
+  inputs:
+    generatorSource: 'FeatureFolder'
+    projectFilePath: 'SpecFlowCleaningCalculator/Features'
