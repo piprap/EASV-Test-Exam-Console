@@ -10,6 +10,9 @@ namespace EASV_Test_Exam_Console
     {
         public int CalculateCleaningPrice(Cleaning cleaning)
         {
+            if(cleaning.area<0) throw new ArgumentException("Area cannot be negative");
+            if (cleaning.area>500) throw new ArgumentException("For Areas Highter than 500 Call for price");
+
             int TotalPrice = 500; //starting fee
             int area = cleaning.area;
             if (area <= 100)

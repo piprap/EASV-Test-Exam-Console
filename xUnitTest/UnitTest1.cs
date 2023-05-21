@@ -29,6 +29,20 @@ namespace xUnitTest
 
 
         [Fact]
+        public void PriceCalculatorCalculateCleaningPrice_AreaIsMinusOne_ExpectedOutcomeError()
+        {
+            //Arrange
+            int price = 0;
+            PriceCalculator priceCalculator = new PriceCalculator();
+            Cleaning cleaning = new Cleaning(-1);
+            //Act
+            Action act = () => priceCalculator.CalculateCleaningPrice(cleaning);
+
+            //Assert
+            Assert.Throws<ArgumentException>(act);
+
+        }
+        [Fact]
         public void PriceCalculatorCalculateCleaningPrice_AreaIsOne_ExpectedOutcome520()
         {
             //Arrange
