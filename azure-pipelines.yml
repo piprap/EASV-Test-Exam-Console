@@ -40,7 +40,7 @@ steps:
   displayName: 'LivingDoc with FeatureFolder generatorSource'
   inputs:
     generatorSource: 'FeatureFolder'
-    projectFilePath: 'EASV-Test-Exam-Console.SpecFlowCleaningCalculator'
+    projectFilePath: 'EASV-Test-Exam-Console/SpecFlowCleaningCalculator'
     projectLanguage: 'en'
   enabled: true
   continueOnError: true
