@@ -37,6 +37,12 @@ steps:
 
 #SpecFlow
 - task: SpecFlowPlus@0
+  displayName: 'LivingDoc with FeatureFolder generatorSource'
   inputs:
     generatorSource: 'FeatureFolder'
-    projectFilePath: 'SpecFlowCleaningCalculator/Features'
+    projectFilePath: 'EASV-Test-Exam-Console.SpecFlowCleaningCalculator'
+    projectLanguage: 'en'
+  enabled: true
+  continueOnError: true
+  condition: always()
+  timeoutInMinutes: 10
