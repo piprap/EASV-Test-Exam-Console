@@ -37,7 +37,6 @@ steps:
 
 #SpecFlow
 - task: SpecFlowPlus@0
-  displayName: 'LivingDoc with FeatureFolder generatorSource'
   inputs:
     generatorSource: 'FeatureFolder'
     projectFilePath: 'EASV-Test-Exam-Console/SpecFlowCleaningCalculator'
