@@ -26,7 +26,7 @@ namespace EASV_Test_Exam_Console
             }
             else if (area <= 500)
             {
-                TotalPrice = (area - 200) * 10;
+                TotalPrice += (area - 200) * 10; // the + was missing but tests was used and located because of testcases 9, 10 and 11
                 TotalPrice += 3500;
             }
 
