@@ -32,9 +32,21 @@ namespace xUnitTest
         public void PriceCalculatorCalculateCleaningPrice_AreaIsMinusOne_ExpectedOutcomeError()
         {
             //Arrange
-            int price = 0;
             PriceCalculator priceCalculator = new PriceCalculator();
-            Cleaning cleaning = new Cleaning(-1);
+            Cleaning cleaning = new(-1);
+            //Act
+            Action act = () => priceCalculator.CalculateCleaningPrice(cleaning);
+
+            //Assert
+            Assert.Throws<ArgumentException>(act);
+
+        }
+        [Fact]
+        public void PriceCalculatorCalculateCleaningPrice_AreaIs501_ExpectedOutcomeError()
+        {
+            //Arrange
+            PriceCalculator priceCalculator = new PriceCalculator();
+            Cleaning cleaning = new(501);
             //Act
             Action act = () => priceCalculator.CalculateCleaningPrice(cleaning);
 
@@ -48,7 +60,7 @@ namespace xUnitTest
             //Arrange
             int price = 0;
             PriceCalculator priceCalculator = new PriceCalculator();
-            Cleaning cleaning = new Cleaning(1);
+            Cleaning cleaning = new (1);
             //Act
             price = priceCalculator.CalculateCleaningPrice(cleaning);
 
@@ -68,6 +80,56 @@ namespace xUnitTest
 
             //Assert
             Assert.Equal(2500, price);
+
+        }
+        [Fact]
+        public void PriceCalculatorCalculateCleaningPrice_AreaIs200WithImpreg_ExpectedOutcome4800()
+        {
+            //Arrange
+            int price = 0;
+            PriceCalculator priceCalculator = new PriceCalculator();
+            Cleaning cleaning = new Cleaning(200, false, false, true);
+            //Act
+            price = priceCalculator.CalculateCleaningPrice(cleaning);
+
+            //Assert
+            Assert.Equal(4800, price);
+
+        }
+        [Fact]
+        public void PriceCalculatorCalculateCleaningPrice_AreaIs200WithDeluxe_ExpectedOutcome6400()
+        {
+            //Arrange
+            int price = 0;
+            PriceCalculator priceCalculator = new PriceCalculator();
+            Cleaning cleaning = new Cleaning(200, true, false, false);
+            //Act
+            price = priceCalculator.CalculateCleaningPrice(cleaning);
+
+            //Assert
+            Assert.Equal(6400, price);
+
+        }
+        [Fact]
+        public void Cleaning_CleaningWithAllTrue_ExpectedIsDoubleWashFalse()
+        {
+            //Arrange
+            //Act
+            Cleaning cleaning = new Cleaning(200, true, true, true);
+
+            //Assert
+            Assert.False(cleaning.IsDoubleWash);
+            
+        }
+        [Fact]
+        public void Cleaning_CleaningWithAllTrue_ExpectedIsImpredFalse()
+        {
+            //Arrange
+            //Act
+            Cleaning cleaning = new Cleaning(200, true, true, true);
+
+            //Assert
+            Assert.False( cleaning.IsImpreg);
 
         }
 

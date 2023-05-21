@@ -30,6 +30,19 @@ namespace EASV_Test_Exam_Console
                 TotalPrice += 3500;
             }
 
+            if (cleaning.IsDeluxe || cleaning.IsDoubleWash && cleaning.IsImpreg)
+            {
+                TotalPrice = (int)Math.Round(TotalPrice * 1.6);
+            }
+            else if (cleaning.IsDoubleWash)
+            {
+                TotalPrice = (int)Math.Round(TotalPrice * 1.5);
+            }
+            else if (cleaning.IsImpreg)
+            {
+                TotalPrice = (int)Math.Round(TotalPrice * 1.2);
+            }
+
             return TotalPrice;
         }
     }
