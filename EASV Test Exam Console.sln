@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASV Test Exam Console", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitTest", "xUnitTest\xUnitTest.csproj", "{FE72BBFA-1946-4270-984C-4F2331D458E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowCleaningCalculator", "SpecFlowCleaningCalculator\SpecFlowCleaningCalculator.csproj", "{7776AE63-330F-4B93-902C-0324CF330FD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowCleaningCalculatorTest", "SpecFlowCleaningCalculator\SpecFlowCleaningCalculatorTest.csproj", "{7776AE63-330F-4B93-902C-0324CF330FD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
