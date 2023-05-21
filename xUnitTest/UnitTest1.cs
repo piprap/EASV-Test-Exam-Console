@@ -26,6 +26,36 @@ namespace xUnitTest
             Assert.Equal(acceptedResult, price);
 
         }
-       
+
+
+        [Fact]
+        public void PriceCalculatorCalculateCleaningPrice_AreaIsOne_ExpectedOutcome520()
+        {
+            //Arrange
+            int price = 0;
+            PriceCalculator priceCalculator = new PriceCalculator();
+            Cleaning cleaning = new Cleaning(1);
+            //Act
+            price = priceCalculator.CalculateCleaningPrice(cleaning);
+
+            //Assert
+            Assert.Equal(520, price);
+
+        }
+        [Fact]
+        public void PriceCalculatorCalculateCleaningPrice_AreaIsHundred_ExpectedOutcome2500()
+        {
+            //Arrange
+            int price = 0;
+            PriceCalculator priceCalculator = new PriceCalculator();
+            Cleaning cleaning = new Cleaning(100);
+            //Act
+            price = priceCalculator.CalculateCleaningPrice(cleaning);
+
+            //Assert
+            Assert.Equal(2500, price);
+
+        }
+
     }
 }

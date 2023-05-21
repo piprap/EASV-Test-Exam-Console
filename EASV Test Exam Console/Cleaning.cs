@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace EASV_Test_Exam_Console
 {
-    internal class Cleaning
+    public class Cleaning
     {
-        private int area { get; set; }
-        private bool IsDeluxe { get; set; } = false;
-        private bool IsDoubleWash { get; set; } = false;
-        private bool IsImpreg { get; set; } = false;
+        public int area { get; set; }
+        public bool IsDeluxe { get; set; } = false;
+        public bool IsDoubleWash { get; set; } = false;
+        public bool IsImpreg { get; set; } = false;
 
 
         
