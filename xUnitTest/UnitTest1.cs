@@ -16,7 +16,7 @@ namespace xUnitTest
         [InlineData(0, false, false, false, 500)] //500
         [InlineData(1, false, false, false, 520)] //520
         [InlineData(99, false, false, false, 2480)]
-        [InlineData(99, false, false, false, 5555)]
+        [InlineData(100, false, false, false, 2500)]
         public void GetPrice_Data_Driven_Test_Return_Int(int area, bool IsDeluxe, bool IsDoubleWash, bool IsImpreg, int acceptedResult)
         {
 
