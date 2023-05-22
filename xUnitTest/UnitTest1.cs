@@ -19,9 +19,12 @@ namespace xUnitTest
         [InlineData(100, false, false, false, 2500)]
         public void GetPrice_Data_Driven_Test_Return_Int(int area, bool IsDeluxe, bool IsDoubleWash, bool IsImpreg, int acceptedResult)
         {
+            Cleaning cleaning = new Cleaning(area, IsDeluxe, IsDoubleWash, IsImpreg);
+            PriceCalculator priceCalculator = new PriceCalculator();
+            int price = priceCalculator.CalculateCleaningPrice(cleaning);
 
-            CalculatePrice calc = new CalculatePrice();
-            int price = calc.GetPrice(area, IsDeluxe, IsDoubleWash, IsImpreg);
+            //CalculatePrice calc = new CalculatePrice();
+            //int price = calc.GetPrice(area, IsDeluxe, IsDoubleWash, IsImpreg);
 
             Assert.Equal(acceptedResult, price);
 
