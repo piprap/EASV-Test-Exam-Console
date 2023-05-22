@@ -34,3 +34,14 @@ steps:
     command: test
     projects: '**/*Test/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
+
+#SpecFlow
+- task: SpecFlowPlus@0
+  inputs:
+    generatorSource: 'FeatureFolder'
+    projectFilePath: 'piprap.EASV-Test-Exam-Console/SpecFlowCleaningCalculator/Features'
+    projectLanguage: 'en'
+  enabled: true
+  continueOnError: true
+  condition: always()
+  timeoutInMinutes: 10
