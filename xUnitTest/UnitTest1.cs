@@ -1,9 +1,15 @@
 using EASV_Test_Exam_Console;
+using EASV_Test_Exam_Console.Interface;
+using Moq;
+using System.Diagnostics;
 
 namespace xUnitTest
 {
     public class UnitTest1
     {
+
+
+       
         [Fact]
 
 
@@ -135,6 +141,6 @@ namespace xUnitTest
             Assert.False( cleaning.IsImpreg);
 
         }
-
+       
     }
 }

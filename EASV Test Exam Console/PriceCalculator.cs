@@ -1,5 +1,8 @@
-﻿using System;
+﻿using EASV_Test_Exam_Console.Interface;
+using EASV_Test_Exam_Console.Repository;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +11,20 @@ namespace EASV_Test_Exam_Console
 {
     public class PriceCalculator
     {
+        private readonly IPriceCalcolator _priceCalcolator;
+        public PriceCalculator(IPriceCalcolator repository)
+        {
+            _priceCalcolator = repository;
+        }
+
+        public PriceCalculator(int v)
+        {
+        }
+
+        public PriceCalculator()
+        {
+        }
+
         public int CalculateCleaningPrice(Cleaning cleaning)
         {
             if (cleaning.area<0) throw new ArgumentException("Area cannot be negative");
@@ -56,6 +73,18 @@ namespace EASV_Test_Exam_Console
             return 1;
         }
 
-  
+        public List<int> GetPricesFromDataSource()
+        {
+            List<int> results = new();
+
+            IEnumerable<PriceCalculator> priceCalcolatores = _priceCalcolator.GetCalculators();
+            Cleaning clean1 = new Cleaning(200, true, false, false);
+            Cleaning clean2 = new Cleaning(500, false, false, false);
+            PriceCalculator price1 = priceCalcolatores.First();
+            PriceCalculator price2 = priceCalcolatores.Last();
+            results.Add(price1.CalculateCleaningPrice(clean1));
+            results.Add(price2.CalculateCleaningPrice(clean2));
+                       return results;
+        }
     }
 }

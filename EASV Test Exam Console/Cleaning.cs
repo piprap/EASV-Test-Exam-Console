@@ -35,6 +35,11 @@ namespace EASV_Test_Exam_Console
         {
             this.area=area;
         }
+
+        public Cleaning()
+        {
+        }
+
         public override string ToString()
         {
             return "[Area: "+this.area+" IsDeluxe: "+this.IsDeluxe+" IsDoubleWash: "+this.IsDoubleWash+" IsImpreg: "+this.IsImpreg+"]"; 
