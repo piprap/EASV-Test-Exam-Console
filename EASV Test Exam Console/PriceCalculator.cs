@@ -11,11 +11,7 @@ namespace EASV_Test_Exam_Console
 {
     public class PriceCalculator
     {
-        private readonly IPriceCalcolator _priceCalcolator;
-        public PriceCalculator(IPriceCalcolator repository)
-        {
-            _priceCalcolator = repository;
-        }
+       
 
         public PriceCalculator(int v)
         {
@@ -27,6 +23,8 @@ namespace EASV_Test_Exam_Console
 
         public int CalculateCleaningPrice(Cleaning cleaning)
         {
+
+     
             if (cleaning.area<0) throw new ArgumentException("Area cannot be negative");
             if (cleaning.area>500) throw new ArgumentException("For Areas Highter than 500 Call for price");
            
@@ -73,18 +71,6 @@ namespace EASV_Test_Exam_Console
             return 1;
         }
 
-        public List<int> GetPricesFromDataSource()
-        {
-            List<int> results = new();
-
-            IEnumerable<PriceCalculator> priceCalcolatores = _priceCalcolator.GetCalculators();
-            Cleaning clean1 = new Cleaning(200, true, false, false);
-            Cleaning clean2 = new Cleaning(500, false, false, false);
-            PriceCalculator price1 = priceCalcolatores.First();
-            PriceCalculator price2 = priceCalcolatores.Last();
-            results.Add(price1.CalculateCleaningPrice(clean1));
-            results.Add(price2.CalculateCleaningPrice(clean2));
-                       return results;
-        }
+       
     }
 }

@@ -1,6 +1,8 @@
 ﻿using EASV_Test_Exam_Console;
+using EASV_Test_Exam_Console.Controller;
 using EASV_Test_Exam_Console.Interface;
 using Moq;
+using NPOI.SS.Formula.Functions;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,23 +14,23 @@ namespace xUnitTest
 {
     public class UnitTest_Moq
     {
-        private PriceCalculator controller;
+        private Controler controller;
         public UnitTest_Moq()
         {
-            Cleaning clean = new Cleaning();
-           
-            List<PriceCalculator> prices = new List<PriceCalculator>()
+            List<Cleaning> Cleanings = new List<Cleaning>()
             {
-                new PriceCalculator(clean.area=200),
-                new PriceCalculator(clean.area=500),
+                new Cleaning(200,true,false,false),
+                new Cleaning(500,false,false,false),
              };
-            Mock<IPriceCalcolator> repository = new Mock<IPriceCalcolator>();
-            repository.Setup(p => p.GetCalculators()).Returns(prices);
-            controller = new PriceCalculator(repository.Object);
+            Mock<ICleaning> repository = new Mock<ICleaning>();
+            repository.Setup(p => p.GetCalculators()).Returns(Cleanings);
+            controller = new Controler(repository.Object);
         }
         [Fact]
-        public void GetAll_ReturnsListWithCorrectNumberOfPriceCalcolator()
+        public void GetCalculators_ReturnsListWithCorrectNumberOfCleaninges()
         {
+            //Arrange
+         
             //Act
             var result = controller.GetPricesFromDataSource();
             var noOfPrices = result.Count;
@@ -38,12 +40,13 @@ namespace xUnitTest
 
         }
         [Fact]
-        public void GetAll_ReturnsListWithCorrectValueOfPriceCalcolator()
+        public void GetCalculators_ReturnsListWithCorrectValuesOfCleaninges()
         {
+            //Arrange
             //Act
             var Expected = controller.GetPricesFromDataSource();
-           
-            int[] Actual = {6400,7000};
+           int[] Actual = {6400,7000};
+
             //Assert
             Assert.Equal(Expected, Actual);
 
